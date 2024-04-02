@@ -27,6 +27,77 @@ button {
   font-family: 'Concord', sans-serif;
 }
 
+/* rectangle on info html styles */
+.infoRec {
+  padding: 20px;
+  display: flex;
+  background-color: #ebebeb;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  width: 500px;
+  margin: 50px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.card {
+  margin: 50px;
+  padding: 20px;
+  background-color: white;
+  border: 5px solid green;
+  border-radius: 10px;
+  width: 350px;
+  height: 150px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;;
+}
+
+
+.infoRec2 {
+  padding: 20px;
+  display: flex;
+  background-color: #ebebeb;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  width: 500px;;
+  margin: 50px;
+  height: 150px;
+  border-radius: 10px;
+  float: right;
+}
+
+.circleVid {
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+
+
+
+.circleVid video {
+  width: 100%;
+  height: 100%;
+}
+
+.infoTitle {
+  margin-top: 60px;
+}
+
+.learnMore {
+  color: #ff4;
+}
+
+
+
 
 /* Top bar styles */
 .top-bar {
