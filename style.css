@@ -1,0 +1,281 @@
+@font-face {
+  font-family: 'Concord';
+  src: url('/Concord-Light-webfont.woff2') format('woff2'),
+    /* WOFF2 format */
+    url('/Concord-Light-webfont.woff') format('woff');
+  /* WOFF format */
+}
+
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: 'Concord', sans-serif;
+}
+
+button {
+  font-family: 'Concord', sans-serif;
+}
+
+
+/* Top bar styles */
+.top-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head_img {
+  display: flex;
+  align-items: center;
+}
+
+.head_img img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.buttons-right {
+  display: flex;
+}
+
+.buttons-right button {
+  margin-left: 100px;
+  padding: 5px 10px;
+  background-color: #333;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.buttons-right button:hover {
+  background-color: #777;
+}
+
+/* Image container styles */
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  font-family: ;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  text-align: center;
+  color: white;
+}
+
+.text-overlay h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-size: 32px;
+  margin: 0;
+}
+
+.image-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 255));
+}
+
+/* Slider styles */
+.slider {
+  width: 100%;
+  max-width: 100vw;
+  height: 700px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+
+.slider .list {
+  position: absolute;
+  width: max-content;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.slider .list .item {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.slider .list .item img {
+  width: calc(50vw);
+  max-width: calc(200vw);
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider .list .item p {
+  margin-right: 3000px;
+}
+
+
+
+.slider .buttons {
+  font-family: 'Concord', sans-serif;
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider .buttons button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: green;
+  color: #fff;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.prevenclose:hover,
+.nextenclose:hover {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: green;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.nextenclose:active,
+.prevenclose:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.slider .dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: green;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slider .dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  margin: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.slider .dots li.active {
+  width: 30px;
+}
+
+.dots {
+  color: green;
+}
+
+.item p {
+  font-size: 20px;
+  color: green;
+}
+
+.container p {
+  font-size: 20px;
+  color: green;
+}
+
+.container li {
+  font-size: 20px;
+  color: green;
+}
+
+.container h1 {
+  font-size: 32px;
+  color: green;
+}
+
+.item button {
+  background-color: green;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.tips-section {
+  margin-bottom: 30px;
+}
+
+.tips-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+
+}
+
+.tips-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.tips-list {
+  list-style-type: disc;
+  margin-left: 60px;
+}
+
+.tips-list li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
