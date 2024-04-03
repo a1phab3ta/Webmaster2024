@@ -679,3 +679,23 @@ main {
   padding: 10px;
 }
 
+.workLog {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  transition: transform 0.5s ease; /* Smooth transition for 0.5 seconds */
+  transform: scale(1);
+}
+
+.workLog:hover {
+  transform: scale(1.2);
+}
+
+.workContainer {
+  margin-top: 50px;
+}
+
+
