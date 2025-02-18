@@ -1,6 +1,6 @@
 # Pranav
 
-<u>**Resources**</u>
+<ins>**Resources**</ins>
 
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 - [Markdown Tutorial](https://www.markdownguide.org/basic-syntax/)
